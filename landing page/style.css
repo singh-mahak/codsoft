@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    color: rgb(13, 98, 126);
+    text-transform: capitalize;
+    font-size: x-large;
+    font-style: italic;
+    
+}
+/* button{
+
+    border: solid ;
+} */
+/* button:hover{
+    height: 25px;
+    background-color: pink;
+    cursor: pointer;  
+} */
+a{
+    text-decoration: none;
+    color: black;
+}
+/* input{
+    text-align: center;
+    height: 25px;
+    color: black;
+    border-radius: 20px;
+} */
+#nav{
+    background-color:whitesmoke;
+    height: 50px;
+    padding: 10px;
+    margin-right: 20px;
+    justify-content: space-around;
+    display: flex;
+}
+
+body{
+   color: #333;
+}
+.main-section{
+    background-color: #79b6e2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 20px;
+    height: 400px;
+}
+.main-section img{
+    height: 500px;
+    max-width: 400px;
+    padding-right: 50px;
+}
+.content h2{
+    color:#004085;
+}
+.button{
+    display: inline-block;
+    color:#fff ;
+    padding :10px 20px;
+    margin-top: 10px;
+    background-color: #004085;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.middle{
+    padding: 40px;
+    align-items: center;
+    margin-left:490px ;
+}
+h2{
+    margin-left: 100px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+p{
+    font-weight: bold;
+}
+a{
+    margin-left: 200px;
+}
+.third-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+}
+.third{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+}
+.fourth{
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+.fourth .gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fourth .gallery img{
+    margin: 10px;
+  max-width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    justify-content: space-around;
+    zoom: 2;
+    border-radius: 50%;
+    border: 2px  grey;
+}
+/* .social-media{
+    margin-top: 20px;
+}
+.social-media a{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 30px;
+    color: black;
+    transition: color 0.3s;
+    
+}
+.social-media a:hover{
+    color:black;
+} */
+footer .copyright{
+    margin-top: 20px;
+    color: black;
+    font-size: 14px;
+    margin-left: 600px;
+}
+/* .fa-brands{
+    color: #333;
+} */
